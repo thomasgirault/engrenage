@@ -3,10 +3,11 @@ float acumulador = 100;
 String s2;
 String[] tokens;
 void setup() {
-  size(1200,1000);
+  size(800,800);
+  // fullScreen();
   smooth();
   // s2 = String.join(" ", loadStrings("/home/thomas/Bureau/doigt_engenage.txt"));
-  s2 = "po j kpojpo jpojpo jpojpoj p ojpoj pojp oj";
+  s2 = "Aaaa  d f f  ffffff gggggggggggg hhhhhhhhhhhhh jjjjjjjjjjjjjj";
 
   tokens = splitTokens(s2, ", ");
 
